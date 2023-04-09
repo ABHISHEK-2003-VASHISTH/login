@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(img/wall.jpg);
+    color: orange;
+
+
+}
+.Login {
+    height: 360px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 12px;
+    backdrop-filter: blur(12px);
+}
+.Login h1{
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+.Login form{
+    font-size: 20px;
+}
+.Login form .form-group {
+    font-size: 20px;
+    margin: 10px;
+
+}
+.Login form input[type="submit"]{
+    font-size: 20px;
+    margin: 15px;
+    color: black;
+    background: white;
+    margin: 1px;
+}
+.Login form input[type="submit"]:hover{
+    background: orange;
+}
